@@ -30,8 +30,8 @@ const HomePage = () => {
 
   return (
     <div className="container px-10 py-4 mt-10 rounded-xl bg-slate-400">
-      <div className="flex flex-col items-baseline justify-between sm:flex-row">
-        <h1 className="mt-4 mb-6 text-4xl font-black text-white">
+      <div className="grid items-baseline justify-center sm:justify-between sm:flex">
+        <h1 className="mt-4 mb-6 text-4xl font-black text-center text-white sm:text-left sm:mx-0">
           List of all books
         </h1>
         <button

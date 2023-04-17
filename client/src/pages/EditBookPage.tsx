@@ -89,8 +89,9 @@ const EditBookPage = () => {
           <p className="mt-4 mb-6 text-4xl font-black text-white">Loading...</p>
         ) : (
           <>
-            <h1 className="mt-4 mb-6 text-4xl font-black text-white">
-              Editing book <Link to={`/book/${id}`} className="text-gray-300 hover:text-gray-200">{book?.title}</Link>
+            <h1 className="grid mt-4 mb-6 text-4xl font-black text-center text-white sm:inline sm:text-left">
+              Editing book {" "}
+              <Link to={`/book/${id}`} className="text-gray-300 hover:text-gray-200">{book?.title}</Link>
             </h1>
             <form
               action="#"

@@ -62,7 +62,7 @@ const CreatePage = () => {
   return (
     <>
       <div className="container px-10 py-4 mt-10 rounded-xl bg-slate-400">
-        <h1 className="mt-4 mb-6 text-4xl font-black text-white">
+        <h1 className="mt-4 mb-6 text-4xl font-black text-center text-white sm:text-left">
           Create new book
         </h1>
         <form

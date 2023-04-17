@@ -45,13 +45,13 @@ const ViewBookPage = () => {
         <p className="mt-4 mb-6 text-4xl font-black text-white">Loading...</p>
       ) : (
         <>
-          <div className="flex items-baseline justify-between">
+          <div className="grid justify-items-center sm:items-baseline sm:flex sm:justify-between">
             <h1 className="mt-4 mb-6 text-4xl font-black text-white">
               {book?.title}
             </h1>
             <Link
               to={`/edit/${id}`}
-              className="flex gap-0.5 text-2xl font-bold text-white hover:text-gray-200"
+              className="flex gap-0.5 text-2xl font-bold text-white hover:text-gray-200 w-fit mb-4 sm:mb-0"
             >
               Edit
               <RiPencilFill className="relative text-[1.5em] bottom-[0.1em]" />
