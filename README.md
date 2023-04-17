@@ -7,6 +7,8 @@
 - Ability to create, read, delete and update data
 
 
+### Create book page
+
 <table>
 <tr>
 <th> Destop </th>
@@ -25,6 +27,8 @@
 </td>
 </tr>
 </table>
+
+### View book page
 
 ![](./docs/img/bookViewDesktop.png)
 
