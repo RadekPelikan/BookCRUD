@@ -57,7 +57,7 @@ const ViewBookPage = () => {
               <RiPencilFill className="relative text-[1.5em] bottom-[0.1em]" />
             </Link>
           </div>
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-4 grid-auto-fit">
             {book &&
               Object.keys(book).map((key: string, index) => (
                 <div

@@ -6,9 +6,9 @@ export const BACKEND_URL: string = "http://localhost:3000";
 function App() {
   return (
     <div className="grid gap-2 px-4">
-      <nav className="container flex px-10 py-4 mt-10 text-xl font-bold text-white gap-14 rounded-xl bg-sky-400">
-        <Link to="/" className="hover:text-gray-200">HomePage</Link>
-        <Link to="new" className="hover:text-gray-200">Create new</Link>
+      <nav className="container flex justify-between px-10 py-4 mt-10 text-xl font-bold text-white sm:justify-normal gap-14 rounded-xl bg-sky-400">
+        <Link to="/" className="hover:text-gray-200">Home</Link>
+        <Link to="new" className="hover:text-gray-200">New Book</Link>
       </nav>
       <Routes>
         <Route path="/" element={<HomePage />} />
