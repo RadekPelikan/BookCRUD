@@ -6,10 +6,10 @@ const cors = require("cors");
 require("dotenv").config();
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 mongoose.connect(
-    `mongodb+srv://admin:${process.env.DB_PASSWORD}@cluster0.ufj0f.mongodb.net/?retryWrites=true&w=majority`,
+    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_NAME}.mongodb.net/?retryWrites=true&w=majority`,
     {
         useNewUrlParser: true,
         useUnifiedTopology: true

@@ -51,6 +51,24 @@
 </tr>
 </table>
 
+## Installation
+
+- Clone repository 
+```
+git clone https://github.com/RadekPelikan/BookCRUD.git
+cd bookCRUD
+```
+- Create `.env` file in [backend directory](./backend/)
+```python
+# Example of url:
+# mongodb+srv://<DB_USER>:<DB_PASSWORD>@<DB_NAME>.mongodb.net/?retryWrites=true&w=majority
+DB_PASSWORD=password    # Database password
+DB_USER=admin           # Database user
+DB_NAME=cluster0.dopig  # Database cluser name
+# PORT is optional
+PORT=3030               # PORT which the backend runs on
+``` 
+
 ## Technologies
 
 - nodejs, npm
