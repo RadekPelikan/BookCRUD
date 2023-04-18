@@ -58,6 +58,8 @@
 git clone https://github.com/RadekPelikan/BookCRUD.git
 cd bookCRUD
 ```
+- Open 2 terminals
+- In one terminal: `cd backend`
 - Create `.env` file in [backend directory](./backend/)
 ```python
 # Example of url:
@@ -67,7 +69,20 @@ DB_USER=admin           # Database user
 DB_NAME=cluster0.dopig  # Database cluser name
 # PORT is optional
 PORT=3030               # PORT which the backend runs on
-``` 
+```
+- Install packages and run server
+```
+npm i
+npm run dev
+```
+- In second terminal: `cd client`
+- Install packages and run vite server
+```
+npm i
+npm run dev
+```
+- The vite server runs on port `3001` by default
+- This could be changed in [vite.config.ts file](./client/vite.config.ts) on line 9: `port: <new port>,`
 
 ## Technologies
 
